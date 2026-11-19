@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#193e38">
+  <meta name="description" content="谈治宏，武汉大学硕士研究生。研究 Web GUI Agent 与多模态视觉理解，参与 RSFAKE-1M、GROC 和 CLIP-RS 等项目。">
+  <title>谈治宏 · Zhihong Tan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="bar wrap">
+  <a class="brand" href="#about" aria-label="谈治宏，返回简介"><b>ZT</b> Zhihong Tan</a>
+  <nav aria-label="站内导航"><a href="#research">研究</a><a href="#agents">实习</a><a href="#background">经历</a></nav>
+</div></header>
+<main id="about" class="wrap">
+  <section class="hero" aria-labelledby="name">
+    <div class="intro">
+      <p class="affiliation">武汉大学 · 人工智能与机器视觉研究所</p>
+      <h1 id="name" lang="en">Zhihong Tan</h1>
+      <p class="han">谈治宏</p>
+      <p class="bio">我在武汉大学读硕士，师从陈震中教授，研究 Web GUI Agent 与多模态视觉理解。在微软亚洲研究院实习期间，我为智能体构建网页交互训练数据，也开发了从资料生成幻灯片的工具。</p>
+      <div class="contacts"><a class="mail" href="mailto:tanzhihong@whu.edu.cn">联系我</a><a href="https://github.com/TZHSW">GitHub</a><a href="https://huggingface.co/TZHSW">Hugging Face</a></div>
+    </div>
+    <div class="portrait"><img src="assets/zhihong.webp" width="640" height="693" alt="谈治宏的个人照片"></div>
+  </section>
+  <section id="research" class="section">
+    <h2>代表研究 <span lang="en">Selected research</span></h2>
+    <article class="paper">
+      <a class="figure" href="https://arxiv.org/abs/2505.23283" aria-label="阅读 RSFAKE-1M 论文"><img src="assets/rsfake.webp" alt="RSFAKE-1M 中不同生成条件和扩散模型组成的数据生产流程"></a>
+      <div><p class="meta">ACM TIST <i>·</i> 第一作者</p><h3>RSFAKE-1M</h3>
+      <p>如何辨认扩散模型生成的遥感影像？我和合作者构建了包含 50 万张真实影像和 50 万张生成影像的数据集，用它测试检测器在不同生成方法上的表现。</p>
+      <div class="links"><a href="https://arxiv.org/abs/2505.23283">论文</a><a href="https://huggingface.co/datasets/TZHSW/RSFAKE">数据集</a></div></div>
+    </article>
+    <article class="paper">
+      <a class="figure" href="https://github.com/jwang-rs/GROC" aria-label="查看 GROC 项目"><img loading="lazy" src="assets/groc.png" alt="GROC 使用土地利用、地图与高程信息辅助遮挡下的目标计数"></a>
+      <div><p class="meta">CVPR 2026 <strong>Highlight</strong> <i>·</i> 第二作者</p><h3>See What We Cannot See</h3>
+      <p>当云雾遮住遥感图像中的目标，地图和土地利用信息还能提供哪些线索？我参与构建 GROC 的 1.4 万张图像和 120 万个点标注，并参与设计计数 Agent 调用地理信息的流程。</p>
+      <div class="links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Wang_See_What_We_Cannot_See_A_Geo-guided_Reasoning_Benchmark_for_CVPR_2026_paper.html">论文</a><a href="https://github.com/jwang-rs/GROC">项目代码</a></div></div>
+    </article>
+    <details><summary>更多研究 <span>CLIP-RS、AVQLMM、LongCaptioning</span></summary>
+      <ul class="more"><li><b>CLIP-RS · IEEE TGRS 2025</b>　我负责在 1,000 万对遥感图文样本上预训练 CLIP-RS，用于无监督语义分割质量评价。<a href="https://huggingface.co/hy1111/CLIP-RS">模型权重</a></li>
+      <li><b>AVQLMM</b>　我结合音频、视频与文本来评估视频通话质量，并参与 ITU-T P.UXV 标准研发。</li>
+      <li><b>LongCaptioning</b>　我负责构建 LongCaption-Bench，评测多模态模型生成长视频描述的能力。</li></ul>
+    </details>
+  </section>
+  <section id="agents" class="section">
+    <h2>研究实习 <span lang="en">Experience</span></h2>
+    <div class="employer"><h3>微软亚洲研究院</h3><p class="dim">2026.01 — 2026.09 · 研究实习生 · 导师 Qi Dai</p></div>
+    <div class="work"><div><h4>Web GUI Agent 训练数据引擎</h4><p>我负责网站探索、任务合成、分布式轨迹采集和质检，交付了约 <b>4.3 万条</b>经验证的网页交互轨迹，并在 Online-Mind2Web、WebArena 和 WebTailBench 上评测模型。</p></div>
+    <div><h4>DeepV 幻灯片生成 Agent</h4><p>我开发了从主题或参考资料生成 PPTX 的核心工作流。用户可以先调整大纲，再圈选页面区域修改图文，也可以跨页批量编辑，按选定版本导出。</p></div></div>
+  </section>
+  <section id="background" class="section"><h2>教育与获奖 <span lang="en">Background</span></h2>
+    <dl class="timeline"><dt>2024 — 2027</dt><dd><b>武汉大学 · 硕士研究生</b><br>遥感信息与工程学院，预计 2027 年 6 月毕业</dd>
+    <dt>2020 — 2024</dt><dd><b>武汉大学 · 学士</b><br>遥感信息与工程学院</dd>
+    <dt>2026</dt><dd><b>QoMEX 低光照增强图像质量评价挑战赛 · 第一名</b><br>团队核心成员</dd></dl>
+  </section>
+</main>
+<footer><div class="wrap"><span>谈治宏 · Zhihong Tan</span><a href="mailto:tanzhihong@whu.edu.cn">tanzhihong@whu.edu.cn</a></div></footer>
+</body>
+</html>
