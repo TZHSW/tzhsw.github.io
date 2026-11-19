@@ -70,8 +70,6 @@ article + article { border-top: 1px solid #e9eef1; }
 .venue em { margin-left: 4px; color: #96431c; font-style: normal; }
 .authors, .entry time { color: var(--muted); font-size: .92rem; }
 .authors strong { color: var(--ink); }
-details { border-top: 1px solid var(--line); padding-top: 12px; }
-summary { cursor: pointer; color: var(--link); }
 .entry { display: grid; grid-template-columns: 22% 1fr; gap: 26px; padding: 6px 0; }
 .entry time { padding-top: 5px; font-variant-numeric: tabular-nums; }
 footer { padding-bottom: 50px; }
