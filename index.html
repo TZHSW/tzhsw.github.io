@@ -44,7 +44,7 @@
   <section id="projects">
     <h2 data-en="Projects">项目</h2>
     <h3 data-en="CodecHarness · Video encoder autotuning">CodecHarness · 视频编码参数自动调优</h3>
-    <p data-en="Can tuning one video help choose encoder settings for the next? CodecHarness explores an agent that retrieves settings from similar videos, tests them on the current clip, and uses the measured bitrate and quality to decide what to try next.">给一段视频调参的经验，能否用到下一段视频上？CodecHarness 探索用 Agent 从相似视频的调参记录中选择起始配置，在当前视频上实际编码，再根据测得的码率和画质决定下一组要测试的参数。</p>
+    <p data-en="For a given video, which encoder settings can meet a target quality at the lowest bitrate? The answer depends on motion and texture, and testing combinations by hand takes time. CodecHarness uses an agent to encode the clip with different settings and choose the next trial based on the measured bitrate and quality. It saves the results so that a similar video can start from a configuration worth testing.">给定一段视频，怎样在达到目标画质的前提下尽量降低码率？合适的编码参数取决于画面中的运动和纹理，靠人工逐组试验很费时。CodecHarness 让 Agent 用不同参数实际编码，根据每次测得的码率和画质决定下一组参数。试验结果也会保存下来，为内容相似的视频提供调参起点。</p>
     <div class="links"><a href="https://tzhsw.github.io/codec-harness/" data-en="CodecHarness project page">查看 CodecHarness 项目页</a></div>
   </section>
 
