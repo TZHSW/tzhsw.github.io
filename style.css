@@ -91,3 +91,10 @@ footer { padding-bottom: 50px; }
   header nav { order: 1; flex-basis: 100%; }
   html { scroll-padding-top: 92px; }
 }
+
+.project-card { padding: 0; grid-template-columns: minmax(0, 30%) minmax(0, 1fr); }
+.project-card .figure img { height: auto; max-height: none; border-radius: 3px; }
+@media (max-width: 640px) {
+  .project-card { grid-template-columns: 1fr; gap: 12px; }
+  .project-card .figure img { width: min(100%, 260px); }
+}
